@@ -1,0 +1,26 @@
+# Core PDF processing
+pymupdf>=1.24.0
+
+# Image processing
+opencv-python-headless>=4.9.0
+Pillow>=10.2.0
+numpy>=1.26.0
+
+# OCR — PaddleOCR (primary, recommended for Linux/Mac CPU deployments)
+# paddlepaddle>=2.6.0    # Uncomment if using PaddleOCR on Linux
+# paddleocr>=2.7.3       # Uncomment if using PaddleOCR on Linux
+
+# OCR — EasyOCR (reliable CPU fallback, works on Windows/Python 3.13+)
+easyocr>=1.7.1
+
+# Data handling
+pandas>=2.2.0
+openpyxl>=3.1.2
+pydantic>=2.6.0
+
+# Progress reporting
+tqdm>=4.66.0
+
+# Testing
+pytest>=8.1.0
+pytest-cov>=5.0.0
